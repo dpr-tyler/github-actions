@@ -3,6 +3,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   const msg = 'Works on my machine.';
+  const test = 'hello world';
   res.send(msg);
 });
 
